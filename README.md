@@ -2,7 +2,7 @@
 
 ## Candidate - Brian Ngo
 
-## Email - brianhngo@gmail.com
+
 
 ### Hi, I wanted to create a ChessBoard class where a new instance would be created whenever the route is called. I'm not too familiar with chess, but I thought of including some standard properties in the class, such as gameBoard, whoseTurn, pieceDirection, gameResult, and gameStatus.
 
