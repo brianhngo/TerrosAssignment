@@ -132,6 +132,11 @@ class GameBoard {
         this.gameStatus = "finished";
       } else if (!result) {
         // game still going on
+        if (this.playersTurn === "w") {
+          this.playersTurn = "b";
+        } else {
+          this.playersTurn = "w";
+        }
         return;
       }
     } else {
